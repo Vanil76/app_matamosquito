@@ -1,0 +1,56 @@
+body {
+    cursor: url(imgs/matamosca_item.svg), auto;
+} 
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+#container {
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    text-align: center;
+    background-color: aqua;
+    background-image: url(../imgs/floresta.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; /*preenche a tela toda*/
+    width: 100%;
+    height: 100vh;
+}
+
+#container > section > select {
+    border-radius: 3px;
+    margin-bottom: 10px;
+    width: 170px;
+    height: 30px;
+}
+
+button {
+    width: 120px;
+    height: 40px;
+    border-radius: 3px;
+    background-color: rgb(224, 16, 16);
+    color: #fff;
+    font-size: 15px;
+}
+
+#placar {
+    box-sizing: border-box;
+    text-align: left;
+    font-weight: bolder;
+    background-color: #fff;
+    width: 200px;
+    height: 70px;
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+}
+#mosca-mascote {
+    position: absolute;
+    bottom: 20px;
+    left: 130px;
+}
+.coracao-tam {
+    width: 30px;
+}

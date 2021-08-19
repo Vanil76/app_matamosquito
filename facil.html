@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap" rel="stylesheet">
+    <title>Jogo Mata Mosquito</title>
+    <link rel="stylesheet" href="./styles/style_facil.css">
+</head>
+<body>
+    <div id="container">
+        <img id="mosquito" onclick="mataMosquito()" src="imgs/mosca_grande.svg" alt="">
+
+        <div id="placar">
+            <img class="coracao coracao-tam" src="imgs/coracao_cheio.svg" alt="">
+            <img class="coracao coracao-tam" src="imgs/coracao_cheio.svg" alt="">
+            <img class="coracao coracao-tam" src="imgs/coracao_cheio.svg" alt="">
+            <p id="p-fdp">Tempo restante: 100</p>            
+        </div>        
+        <img id="mosca-mascote" src="imgs/mosca_grande_direita.svg" alt="">
+    </div>
+    <script src="./scripts/script_facil.js"></script>
+</body>
+</html>
